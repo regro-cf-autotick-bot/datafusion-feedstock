@@ -5,12 +5,12 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/d/datafusion/datafusion-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/d/datafusion/datafusion-{{ version }}.tar.gz
   sha256: cfe7e8dfc026efc05824f49b53ad6a72caf5c2d6820759b6212a09e245a427ed
 
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
